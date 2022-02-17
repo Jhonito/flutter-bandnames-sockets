@@ -1,13 +1,19 @@
 {
-    "bracket-pair-colorizer-2.colors": [
-        "#fafafa",
-        "#9F51B6",
-        "#F7C244",
-        "#F07850",
-        "#9CDD29",
-        "#0098FA"
-    ],
-    "workbench.colorCustomizations": {
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"bracket-pair-colorizer-2.colors": [
+			"#fafafa",
+			"#9F51B6",
+			"#F7C244",
+			"#F07850",
+			"#9CDD29",
+			"#0098FA"
+		],
+		"workbench.colorCustomizations": {
             "activityBar.activeBackground": "#04b5f4",
             "activityBar.activeBorder": "#bc038c",
             "activityBar.background": "#04b5f4",
@@ -23,4 +29,5 @@
             "titleBar.inactiveBackground": "#0390c299",
             "titleBar.inactiveForeground": "#e7e7e799"
         },
+	}
 }

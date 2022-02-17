@@ -16,9 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => SocketService())
-
-
+        ChangeNotifierProvider(create: (_) => SocketService(),)
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -26,7 +24,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        initialRoute: 'status',
+        initialRoute: 'home',
         routes: {
           'home': (_) =>  Home(),
           'status': (_) => StatusPage()
